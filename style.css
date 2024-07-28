@@ -25,7 +25,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 .result:before{
@@ -94,6 +93,12 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 17px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all .55s ease;
 }
 
 .alert-message {
